@@ -17,7 +17,7 @@ namespace CatPost
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-G03C6BH4\\SQLEXPRESS;Initial Catalog=restorant;Integrated Security=True;");
+        SqlConnection baglanti = new SqlConnection("Data Source=SQLVERİTABANI;Initial Catalog=restorant;Integrated Security=True;");
          public static int para = 0;
         private void yenile()
         {
