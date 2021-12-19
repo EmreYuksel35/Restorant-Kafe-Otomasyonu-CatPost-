@@ -24,8 +24,8 @@ namespace CatPost
         {
             this.WindowState = FormWindowState.Minimized;
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-G03C6BH4\\SQLEXPRESS;Initial Catalog=restorant;Integrated Security=True;");
-        SqlConnection baglanti1 = new SqlConnection("Data Source=LAPTOP-G03C6BH4\\SQLEXPRESS;Initial Catalog=CatPost;Integrated Security=True;");
+        SqlConnection baglanti = new SqlConnection("Data Source=SQLVERİTABANI;Initial Catalog=restorant;Integrated Security=True;");
+        SqlConnection baglanti1 = new SqlConnection("Data Source=SQLVERİTABANI;Initial Catalog=CatPost;Integrated Security=True;");
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
