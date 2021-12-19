@@ -25,7 +25,7 @@ namespace CatPost
         public static string yetki = "";
         public static string personelad = "";
         Form3 form3 = new Form3();
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-G03C6BH4\\SQLEXPRESS;Initial Catalog=restorant;Integrated Security=True;");
+        SqlConnection baglanti = new SqlConnection("Data Source=SQLVERİTABANI;Initial Catalog=restorant;Integrated Security=True;");
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text != "" && textBox2.Text != "")
