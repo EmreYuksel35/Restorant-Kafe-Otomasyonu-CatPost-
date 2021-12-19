@@ -20,7 +20,7 @@ namespace CatPost
         Form2 form2 = new Form2();
         public static string gidenbilgi = "";
         public static string süre = "";
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-G03C6BH4\\SQLEXPRESS;Initial Catalog=CatPost;Integrated Security=True;");
+        SqlConnection baglanti = new SqlConnection("Data Source=SQLVERİTABANI;Initial Catalog=CatPost;Integrated Security=True;");
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text != "" && textBox2.Text != "")
